@@ -8,10 +8,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.utils import shuffle
 from sklearn.model_selection import train_test_split
 
-# Reading the dataset
-# Get the dataset "sonar.csv" at 
-# https://archive.ics.uci.edu/ml/machine-learning-databases/undocumented/connectionist-bench/sonar/sonar.all-data
-# Just save the file as sonar.csv
+
 def read_dataset():
     dir_path = ""
     df = pd.read_csv('sonar.csv')
